@@ -1,0 +1,80 @@
+@font-face {
+    font-family: snow;
+    src: url(snow.otf);
+}
+@font-face {
+    font-family: vasek;
+    src: url(vasek.ttf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vasek;
+    text-decoration: none;
+    cursor: default;
+}
+.bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.message h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.message button{
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: none;
+    font-size: 44px;
+    cursor: pointer;
+    animation: light 4s infinite linear;
+    transition: 1s;
+}
+.message button:hover{
+    transform: scale(1.1);
+}
+.message2, .message3, .message4, .message5{
+    display: none;
+}
+.message5{
+    opacity: 100%;
+    transition: 2s;
+}
+.btn_box{
+    display: flex;
+    justify-content: space-between;
+}
+@keyframes light{
+    0% {
+        box-shadow: 0 0 10px #e5fafa;
+    }
+    25% {
+        box-shadow: 0 0 10px #0c9494;
+    }
+    50% {
+        box-shadow: 0 0 10px #c4e0e0;
+    }
+    75% {
+        box-shadow: 0 0 10px #12e0e0;
+    }
+    100% {
+        box-shadow: 0 0 10px #e5fafa;
+    }
+}
