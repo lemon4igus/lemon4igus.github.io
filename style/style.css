@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.hat{
+	height: 80px;
+	background: #020214;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hat_rating{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	width: 120px;
+	margin-right: 100px;	
+}
+.hat_links{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.hat_links a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.hat_links button{
+	width: 250px;
+	height: 35px;
+	background: #00274A;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	box-shadow: 0 0 10px white;
+	cursor: pointer;
+}
+.hat_links img{
+	height: 40px;
+	cursor: pointer;
+}
+.hat_logo img{
+	height: 50px;
+	margin-left: 100px;
+}
+.promo{
+	height: 820px;
+	background: url(img/promo_bg.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 150px;
+}
+.promo h1{
+	color: white;
+	font-size: 96px;
+	font-weight: 500;
+	font-family: serif;
+	text-align: center;	
+
+}
+.promo_divider{
+	height: 3px;
+	width: 800px;
+	background: white;
+	margin: auto;
+}
+.promo p{
+	width: 800px;
+	color: white;
+	margin:auto;
+	text-align: center;
+	margin-top: 35px;
+	font-size:20px;
+}
+.promo button{
+	width: 290px;
+	height: 55px;
+	background: #00274A;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	margin-top: 35px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.promo a{
+	display: block;
+	margin: auto;
+	margin-top: 280px;
+	height: 70px;
+}
+.goods{
+	padding: 50px 150px;
+	background-color:#030B16;
+
+}
+.goods h2{
+	color: white;
+	text-align: center;
+
+
+}
+.product{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+
+}
+.card{
+	width: 270px;
+	color: white;
+	border: 2px solid white;
+	padding: 15px;
+	text-align: center;
+
+}
+.card img{
+	width: 80%;
+}
+.card h3{
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0px;
+}
+.card p{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	text-align: left;
+	align-items: center;
+}
+.card button{
+	background-color: #030B16;
+	border-radius: 7px;
+	margin-top: 15px;
+	border: white 1.5px solid;
+	color: white;
+	padding: 5px 20px;
+
+}
+.why{
+	color: white;
+	background-image: url(img/fon.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+.why h2{
+	font-size: 50px;
+}
+.why h3{
+
+}
+.why ul{
+	margin-top: 20px;
+}
+.why li{
+	
+}
+.pay{
+	text-align: center;
+	background-image:url(img/promo_bg.png);
+	color: white;
+	padding:100px 150px ;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+
+
+}
+.pay img{
+	width: 187px;
+}
+.pay h2{
+	margin-top: 20px;
+}
+.pay h3{
+	margin-top: 15px;
+}
+.pay button{
+	box-shadow: 0px 0px 5px white; 
+	text-align:center;
+	margin-top: 15px;
+	padding: 15px 45px;
+	background-color: #030B16;
+	color:white; 
+	border-radius: 15px;
+	border: 2px solid white;
+	font-size: 22px;
+	transition: 0.5s;
+	cursor: pointer;
+
+}
+.pay button:hover{
+box-shadow: 0px 0px 15px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
